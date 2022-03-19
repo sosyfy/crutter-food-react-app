@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import './Recipe.css'
 
@@ -16,8 +16,8 @@ function Recipe() {
   }
   
   useEffect(()=>{
-      fetchDetails();
-  },[params.name])
+     fetchDetails() 
+  })
 
   return (
 <div className="detailWrapper">

@@ -9,6 +9,9 @@ import './Category.css'
 function Category() {
   return (
     <div className='navbar'>
+      <Link to='/' className='link'>
+          <h2>crutter</h2>
+      </Link>
       <Link to='/cousine/italian' className='link'>
           <FaPizzaSlice />
           <h4>italian</h4>
