@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    padding: 3rem;
+}
+.card img{
+  width: 100%;
+  border-radius: 2rem;
+}
+.card h4 {
+    text-align: center;
+    padding: 1rem;
+}
